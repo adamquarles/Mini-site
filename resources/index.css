@@ -1,0 +1,103 @@
+body {
+    background-color: white;
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+    transition: background-color 0.4s ease;
+}
+
+h1 {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    color: black;
+    font-size: 64px;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: auto;
+}
+
+h2 {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    color: black;
+    font-size: 36px;
+    margin: auto;
+}
+
+p {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 24px;
+    margin: auto;
+}
+
+.mainContainer {
+    background-color: white;
+    width: 40%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 3%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+}
+
+.mainContainer p {
+    text-align: center;
+}
+
+.imageRow {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+}
+
+.avatarImage {
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.linkIcon img {
+    width: 36px;
+    height: 36px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.linkIcon:hover img {
+    transform: scale(1.15);
+}
+
+.experienceText {
+    margin-top: 4%;
+    float: left;
+    /* justify-content: space-between;  */
+}
+
+.experienceText h2 {
+    text-align: left;
+}
+
+.experienceText p {
+    text-align: left;
+}
+
+.experienceText2 {
+    margin-top: 4%;
+    float: right;
+    /* justify-content: space-between;  */
+}
+
+.experienceText2 h2 {
+    text-align: right;
+}
+
+.experienceText2 p {
+    text-align: right;
+}
