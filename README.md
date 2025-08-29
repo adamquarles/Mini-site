@@ -4,4 +4,3 @@
 
 ### To-do:
 - Add working links to socials (minus personal site, which is still a WIP)
-- Make site more responsive for mobile/different window sizes. 
