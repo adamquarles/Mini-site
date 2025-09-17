@@ -26,6 +26,17 @@ h2 {
     color: black;
     font-size: 36px;
     margin: auto;
+    text-align: center;
+}
+
+h3 {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    color: black;
+    font-size: 36px;
+    margin-top: auto;
+    text-align: center;
 }
 
 p {
@@ -102,6 +113,104 @@ p {
 .experienceText2 p {
     text-align: right;
 }
+
+input[type=text],
+input[type=email] {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    display: block;
+}
+
+label {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 24px;
+    width: 75%;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    display: block;
+    resize: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+input[type=submit] {
+    width: 75%;
+    background-color: darkgrey;
+    color: white;
+    padding: 14px 20px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+input[type=submit]:hover {
+    background-color: grey;
+    font-style: italic;
+}
+
+.homeButton {
+    width: 75%;
+    background-color: grey;
+    color: white;
+    padding: 14px 20px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+}
+
+.homeButton a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+.homeButton:hover {
+    background-color: #09585980;
+    color: white;
+    font-style: italic;
+}
+
 
 @media screen and (max-width: 768px) {
     .mainContainer {
